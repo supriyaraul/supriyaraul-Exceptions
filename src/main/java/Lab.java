@@ -1,3 +1,6 @@
+//import kotlin.ThrowsKt;
+//import kotlin.jvm.Throws;
+
 public class Lab {
     /**
      * An exception is an unexpected event that occurs during our program.
@@ -20,7 +23,8 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() {
-
-    }
+    public void mustThrow() throws Exception {
+        
+        throw new Exception ();
+     }
 }
